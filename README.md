@@ -1,2 +1,2 @@
 # my-portfolio
-FINAL PROJECT
+Bill Gates' Spending Simulation: This project allows users to virtually spend a predefined sum of Bill Gates' fortune. With an interface resembling a shopping spree, users can select various luxurious items from a store and 'purchase' them within the available budget. The interface dynamically updates to display the remaining funds and a list of bought items. Through a simple click, users can indulge in an imaginative spending spree, experiencing the thrill of lavish purchases without real-world consequences."
