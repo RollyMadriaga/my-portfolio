@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spend Bill Gates' Money</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Spend Bill Gates' Money (Final Project) </h1>
+  </header>
+
+  <div id="main">
+    <div id="billGates">
+      <img src="billgates.png" alt="Bill Gates">
+      <p>Bill Gates</p>
+    </div>
+    
+    <div id="balance">
+      <h2>Remaining Money: <span id="money">$10,000,000,000</span></h2>
+    </div>
+
+    <div id="items">
+      <h2>Items Bought:</h2>
+      <ul id="boughtItems">
+        <!-- Dynamically populated -->
+      </ul>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+
+    <div id="totalSpentDisplay">
+      <h2>Total Spent: <span id="totalSpent">$0</span></h2>
+    </div>
+
+    <div id="store">
+      <!-- Store items -->
+      <h2>Store</h2>
+      <ul id="storeItems">
+        <li data-price="10000000">
+          <img src="yacht.jpg" alt="Yacht">
+          Yacht - $10,000,000
+        </li>
+        <li data-price="500000">
+          <img src="luxury_car.jpg" alt="Luxury Car">
+          Luxury Car - $500,000
+        </li>
+        <li data-price="10000">
+          <img src="diamond_ring.jpg" alt="Diamond Ring">
+          Diamond Ring - $10,000
+        </li>
+        <!-- Add more items -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
